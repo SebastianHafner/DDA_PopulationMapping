@@ -1,4 +1,4 @@
-Code for the following letter:
+Code for the following paper:
 
 S. Georganos, S. Hafner, M. Kuffer, C. Linard and Y. Ban, "A census from heaven: Unravelling the potential of deep learning and Earth observation for intra-urban population mapping in data scarce environments," in *International Journal of Applied Earth Observation and Geoinformation*, (under review).
 
@@ -19,7 +19,7 @@ Urban population distribution maps are vital elements for monitoring the Sustain
   
 TBA
 
-## 1 Network training
+## 2 Network training
 
 There are three training files that can be run with different configs for model training (e.g. python training_file.py -c config_file):
 

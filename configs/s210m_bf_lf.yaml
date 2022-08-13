@@ -1,0 +1,13 @@
+_BASE_: "lf_base.yaml"
+DEBUG: False
+
+MODEL:
+  STREAM1:
+    IN_CHANNELS: 4
+  STREAM2:
+    IN_CHANNELS: 1
+
+DATALOADER:
+  FEATURE_STREAM1: 's2'
+  FEATURE_STREAM2: 'bf'
+  S2_BAND_INDICES: [ 2, 1, 0, 3 ]

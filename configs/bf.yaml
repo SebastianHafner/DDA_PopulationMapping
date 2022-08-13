@@ -1,0 +1,8 @@
+_BASE_: "base.yaml"
+DEBUG: False
+
+MODEL:
+  IN_CHANNELS: 1
+
+DATALOADER:
+  FEATURES: [ 'bf' ]

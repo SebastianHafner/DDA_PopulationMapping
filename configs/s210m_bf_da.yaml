@@ -1,0 +1,9 @@
+_BASE_: "da_base.yaml"
+DEBUG: False
+
+MODEL:
+  DISABLE_FUSION_LOSS: True
+
+CONSISTENCY_TRAINER:
+  LOSS_FACTOR: 0.5
+  LOSS_TYPE: 'L2'

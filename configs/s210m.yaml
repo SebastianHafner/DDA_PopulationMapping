@@ -1,0 +1,9 @@
+_BASE_: "base.yaml"
+DEBUG: False
+
+MODEL:
+  IN_CHANNELS: 4
+
+DATALOADER:
+  FEATURES: [ 's2' ]
+  S2_BAND_INDICES: [ 2, 1, 0, 3 ]

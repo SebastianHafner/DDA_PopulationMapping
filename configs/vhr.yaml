@@ -1,0 +1,13 @@
+_BASE_: "base.yaml"
+DEBUG: False
+
+MODEL:
+  IN_CHANNELS: 3
+
+DATALOADER:
+  FEATURES: [ 'vhr' ]
+  VHR_MAX_REFLECTANCE: 5_000
+  VHR_BAND_INDICES: [ 0, 1, 2 ]
+
+DATASET:
+  CENSUS_EVALUATION_CITIES: [ 'dakar' ]

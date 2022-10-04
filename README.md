@@ -1,7 +1,8 @@
 Code for the following paper:
 
-S. Georganos, S. Hafner, M. Kuffer, C. Linard and Y. Ban, "A census from heaven: Unravelling the potential of deep learning and Earth observation for intra-urban population mapping in data scarce environments," in *International Journal of Applied Earth Observation and Geoinformation*, (under review).
+S. Georganos, S. Hafner, M. Kuffer, C. Linard and Y. Ban, "A census from heaven: Unravelling the potential of deep learning and Earth observation for intra-urban population mapping in data scarce environments," in *International Journal of Applied Earth Observation and Geoinformation*, 114, 103013.
 
+[[Paper](https://doi.org/10.1016/j.jag.2022.103013)] 
 
 # Abstract
 
@@ -17,7 +18,9 @@ Urban population distribution maps are vital elements for monitoring the Sustain
 
 ## 1 Dataset download
   
-TBA
+Our Multi-Modal Population Dataset dataset can be downloaded from Zenodo.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7139841.svg)](https://doi.org/10.5281/zenodo.7139841)
 
 ## 2 Network training
 
@@ -39,5 +42,12 @@ If you find this work useful, please consider citing:
 
 
   ```bibtex
-
+    @article{georganos2022census,
+        title = {A census from heaven: Unraveling the potential of deep learning and Earth Observation for intra-urban population mapping in data scarce environments},
+        journal = {International Journal of Applied Earth Observation and Geoinformation},
+        volume = {114},
+        pages = {103013},
+        year = {2022},
+        publisher = {Elsevier}
+    }
   ```
